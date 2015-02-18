@@ -14,4 +14,4 @@ Run tests:
 `npm test`
 
 To test your own file:
-`psvalidate < <your_file_here>`
+`jpvalidate < <your_file_here>`

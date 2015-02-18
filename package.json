@@ -4,7 +4,7 @@
   "description": "JSON Protein schema",
   "main": "validator.js",
   "bin": {
-    "psvalidate": "bin/psvalidate.js"
+    "jpvalidate": "bin/jpvalidate.js"
   },
   "directories": {
     "test": "test"
