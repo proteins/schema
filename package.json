@@ -32,7 +32,8 @@
   "homepage": "https://github.com/proteins/schema",
   "dependencies": {
     "cli": "^0.6.5",
-    "jsonschema": "^1.0.0"
+    "jsonschema": "^1.0.0",
+    "underscore": "^1.7.0"
   },
   "devDependencies": {
     "jshint": "latest",
