@@ -5,8 +5,8 @@
 Super-important for testing.
 
 ### How do I use it?
-To test all the examples:
-`make test`
+Run tests:
+`npm test`
 
 To test your own file:
-`make filetest <path_to_file>`
+`jsonlint -V schema.json <path_to_your_file`
