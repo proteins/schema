@@ -5,8 +5,13 @@
 Super-important for testing.
 
 ### How do I use it?
+Install it (for use in code):
+`npm install proteins-schema`
+Install it (for jpvalidate):
+`npm install -g proteins-schema`
+
 Run tests:
 `npm test`
 
 To test your own file:
-`jsonlint -V schema.json <path_to_your_file`
+`psvalidate < <your_file_here>`
