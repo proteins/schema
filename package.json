@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "JSON Protein schema",
   "main": "validator.js",
+  "bin": {
+    "psvalidate": "bin/psvalidate.js"
+  },
   "directories": {
     "test": "test"
   },
@@ -28,6 +31,7 @@
   },
   "homepage": "https://github.com/proteins/schema",
   "dependencies": {
+    "cli": "^0.6.5",
     "jsonschema": "^1.0.0"
   },
   "devDependencies": {
