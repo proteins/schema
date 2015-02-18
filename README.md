@@ -9,4 +9,4 @@ To test all the examples:
 `make test`
 
 To test your own file:
-`make filetest &lt;path_to_file&gt;`
+`make filetest <path_to_file>`
