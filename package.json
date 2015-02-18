@@ -1,0 +1,38 @@
+{
+  "name": "proteins-schema",
+  "version": "1.0.0",
+  "description": "JSON Protein schema",
+  "main": "validator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js | node_modules/.bin/tap-spec",
+    "lint": "jshint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proteins/schema.git"
+  },
+  "keywords": [
+    "protein",
+    "biology",
+    "json",
+    "schema",
+    "testing"
+  ],
+  "author": "Liam Marshall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proteins/schema/issues"
+  },
+  "homepage": "https://github.com/proteins/schema",
+  "dependencies": {
+    "jsonschema": "^1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "tap-spec": "^2.2.1",
+    "tape": "^3.5.0"
+  }
+}
