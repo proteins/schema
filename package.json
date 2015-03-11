@@ -1,6 +1,6 @@
 {
   "name": "proteins-schema",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "JSON Protein schema",
   "main": "validator.js",
   "bin": {
