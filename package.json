@@ -25,7 +25,7 @@
     "testing"
   ],
   "author": "Liam Marshall",
-  "license": "ISC",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/proteins/schema/issues"
   },
